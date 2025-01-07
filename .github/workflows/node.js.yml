@@ -1,0 +1,11 @@
+name: Node.js CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  ci:
+    uses: sandbox-d8zxjk/shared-ci/.github/workflows/node.yml@main
